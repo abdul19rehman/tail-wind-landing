@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class=" overflow-x-hidden bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF]">
+    <div class="container relative w-full p-4 md:px-16 md:overflow-x-hidden">
+      <!-- Header  -->
+      <header class="flex justify-between">
+        <div>
+          <img src="/assets/logo-dark.svg" alt="" class="py-2">
+        </div>
+        <div class="font-medium text-white flex justify-center items-center rounded-full bg-slate-900 py-3 px-6">Get Started</div>
+      </header>
+
+        <!-- Introduction -->
+      <section class="md:max-w-sm lg:max-w-md md:mt-20">
+        <div class="text-4xl text-[#13183F] font-extrabold my-8 lg:text-5xl">Maximize skill,
+          minimize budget</div>
+          <p class="text-zinc-500 text-lg ">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+          <button class=" text-white flex justify-center items-center rounded-full bg-gradient-to-r from-[#FF6F48] to-[#F02AA6] py-3 px-6 my-4">Get Started</button>
+      </section>
+
+      <!-- Image -->
+       <section>
+        <img src="/assets/image-hero-mobile.png" alt="" class="md:hidden">
+        <img src="/assets/image-hero-tablet.png" alt="" class=" hidden lg:hidden absolute md:-top-[100px] md:-right-[320px] md:block ">
+        <img src="/assets/image-hero-desktop.png" alt="" class=" hidden md:hidden lg:max-w-4xl absolute -top-[180px] -right-[420px] lg:block ">
+       </section>
+
+       <!-- grid  -->
+        <section class="md:max-w-2xl md:grid md:grid-cols-2 lg:grid lg:grid-cols-3  md:mt-52 lg:max-w-3xl  gap-5  lg:mx-48">
+          <div class="bg-gradient-to-r from-[#FF6F48] to-[#F02AA6] text-white font-semibold p-6 text-3xl rounded-lg md:h-56 md:mt-10">Check out our most popular courses!</div>
+          <!-- box 1 -->
+          <div class=" relative space-y-3 px-3 my-8 rounded-lg bg-white">
+            <img src="/assets/icon-animation.svg" alt="" class="w-14 h-14 rounded-full absolute -top-4 ">
+            <h2 class="font-bold pt-12 ">Animation</h2>
+            <p class="text-zinc-500">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <h1 class="text-orange-400 pb-3">Get Started</h1>
+          </div>
+
+          <!-- box2 -->
+          <div class="relative space-y-3 px-3 my-8 rounded-lg bg-white">
+            <img src="/assets/icon-design.svg" alt="" class="w-14 h-14 rounded-full absolute -top-4 ">
+            <h2 class="font-bold pt-12 ">Design</h2>
+            <p class="text-zinc-500">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <h1 class="text-orange-400 pb-3">Get Started</h1>
+          </div>
+          <!-- box 3 -->
+          <div class=" relative space-y-3 px-3 my-8 rounded-lg bg-white">
+            <img src="/assets/icon-photography.svg" alt="" class="w-14 h-14 rounded-full absolute -top-4">
+            <h2 class="font-bold pt-12 ">Photography</h2>
+            <p class="text-zinc-500">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <h1 class="text-orange-400 pb-3 ">Get Started</h1>
+          </div>
+          <!-- box 4 -->
+          <div class=" relative space-y-3 px-3 my-8 rounded-lg bg-white">
+            <img src="/assets/icon-crypto.svg" alt="" class="w-14 h-14 rounded-full absolute -top-4">
+            <h2 class="font-bold pt-12 ">Crypto</h2>
+            <p class="text-zinc-500">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <h1 class="text-orange-400 pb-3">Get Started</h1>
+          </div>
+          <!-- box 5 -->
+          <div class="relative space-y-3 px-3 my-8 rounded-lg bg-white">
+            <img src="/assets/icon-business.svg" alt="" class="w-14 h-14 rounded-full absolute -top-4">
+            <h2 class="font-bold pt-12 ">Business</h2>
+            <p class="text-zinc-500">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <h1 class="text-orange-400 pb-3">Get Started</h1>
+          </div>
+          
+        </section>
+
+        <footer class="bg-[#13183F] flex justify-between items-center px-10 ">
+          <img src="/assets/logo-light.svg" alt="" class="max-w-32 max-h-10">
+          <button class=" text-white flex justify-center items-center rounded-full bg-gradient-to-r from-[#FF6F48] to-[#F02AA6] py-3 px-6 my-4">Get Started</button>
+        </footer>
+    </div>
+  </body>
+</html>
